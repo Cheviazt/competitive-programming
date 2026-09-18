@@ -47,25 +47,22 @@ ll kpk(ll a, ll b){
     return a / fpb(a,b) * b;
 }
 
-// 10 9 6 5 6 7 8
-// 10 9 8 7 6 6 5
-// 7 6 6 5
-
-
 void solve(){
     
-    int n,k; cin >> n >> k;
-    
+    ll n,x; cin >> n >> x;
     vl arr(n);
-    for(auto &x : arr) cin >>x;
+    for(auto &x:arr)cin>>x;
 
-    sort(rall(arr));
-    int ans=0;
-    for (int i=n-1; i >= n-k; i--) {
-        // debug(arr[i]);
-        ans+=arr[i];
+    sort(all(arr),greater<>());
+    
+    ll ans=0;
+    for(int i=0,cnt=1; i<n; i++, cnt++){
+        if(arr[i]*cnt >= x){
+            cnt=0;
+            ans++;
+        }
+
     }
-
     cout << ans << endl;
 
 }

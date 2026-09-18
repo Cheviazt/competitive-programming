@@ -47,27 +47,27 @@ ll kpk(ll a, ll b){
     return a / fpb(a,b) * b;
 }
 
-// 10 9 6 5 6 7 8
-// 10 9 8 7 6 6 5
-// 7 6 6 5
-
-
 void solve(){
-    
-    int n,k; cin >> n >> k;
-    
-    vl arr(n);
-    for(auto &x : arr) cin >>x;
+    ll n,m,k; cin >> n >> m >> k;
+    vector<int> a(n),b(m);
+    for(auto &x:a)cin>>x;
+    for(auto &x:b)cin>>x;
 
-    sort(rall(arr));
-    int ans=0;
-    for (int i=n-1; i >= n-k; i--) {
-        // debug(arr[i]);
-        ans+=arr[i];
+    vector<int> ina(k+1,0), inb(k+1,0);
+    for(int x:a)if(x<=k)ina[x]=1;
+    for(int x:b)if(x<=k)inb[x]=1;
+
+    ll aans=0, bans=0;
+    bool cek=true;
+    for (int i = 1; i <= k; i++) {
+        if (!ina[i]&&!inb[i]) {cek=false; break;}
+        if (ina[i]&&!inb[i])aans++;
+        if (inb[i]&&!ina[i])bans++;
     }
 
-    cout << ans << endl;
-
+    if (cek && aans <= k/2 && bans <= k/2)cout<<"YES"<<endl;
+    else cout<<"NO"<<endl; 
+    
 }
 
 int main(){

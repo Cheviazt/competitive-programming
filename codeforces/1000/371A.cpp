@@ -47,23 +47,61 @@ ll kpk(ll a, ll b){
     return a / fpb(a,b) * b;
 }
 
-// 10 9 6 5 6 7 8
-// 10 9 8 7 6 6 5
-// 7 6 6 5
+/*
+10 4
+1 1 2 2 2 1 1 1 2 2 1 2
+[2,1,1,2] [2,1,1,2] [2,1,1,2]
+kel 1:
+1 2 2
 
+kel 2:
+1 1 1
+
+kel 3:
+1 1 1
+
+kel 4:
+2 2 2
+
+
+8 4
+1 1 2 1 1 1 2 1
+
+1 1 2 1
+1 1 2 1
+*/
 
 void solve(){
     
     int n,k; cin >> n >> k;
-    
-    vl arr(n);
-    for(auto &x : arr) cin >>x;
+    vector<vector<int>> arr(k+1, vector<int>(3,0));
 
-    sort(rall(arr));
+    for (int i = 1; i <= n; i++) {
+        int x;cin>>x;
+        arr[i%k][x]++;
+
+        // for (int j = 0; j < k; j++) {
+        //     int x;cin>>x;
+        //     arr[i][x]++;
+        // }
+    }
+
+    // for () 
+
+    for (auto& x : arr) {
+        sort(all(x));
+    }
+
+    // for (auto& x : arr) {
+    //     for (auto z : x) {
+    //         cout << z << " ";
+    //     }
+    //     cout << endl;
+    // }
+
     int ans=0;
-    for (int i=n-1; i >= n-k; i--) {
-        // debug(arr[i]);
-        ans+=arr[i];
+    for (auto x : arr) {
+        ans += x[1];
     }
 
     cout << ans << endl;
@@ -74,7 +112,7 @@ int main(){
     bismillah;
 
     int t = 1;
-    cin >> t;
+    // cin >> t;
     while(t--){
         solve();
     }

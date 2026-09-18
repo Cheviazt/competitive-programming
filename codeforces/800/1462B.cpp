@@ -47,26 +47,19 @@ ll kpk(ll a, ll b){
     return a / fpb(a,b) * b;
 }
 
-// 10 9 6 5 6 7 8
-// 10 9 8 7 6 6 5
-// 7 6 6 5
-
-
 void solve(){
     
-    int n,k; cin >> n >> k;
-    
-    vl arr(n);
-    for(auto &x : arr) cin >>x;
+    ll n; cin >> n;
+    string s; cin >> s;
 
-    sort(rall(arr));
-    int ans=0;
-    for (int i=n-1; i >= n-k; i--) {
-        // debug(arr[i]);
-        ans+=arr[i];
+    for (int i = 0; i <= 4; i++) {
+        if(s.substr(0,i)+s.substr(n-4+i,4-i)=="2020"){
+            yes;
+            return;
+        }
     }
 
-    cout << ans << endl;
+    no;
 
 }
 

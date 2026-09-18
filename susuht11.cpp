@@ -47,26 +47,26 @@ ll kpk(ll a, ll b){
     return a / fpb(a,b) * b;
 }
 
-// 10 9 6 5 6 7 8
-// 10 9 8 7 6 6 5
-// 7 6 6 5
-
-
 void solve(){
     
-    int n,k; cin >> n >> k;
-    
-    vl arr(n);
-    for(auto &x : arr) cin >>x;
+    ll a,b,c,m; cin >> a >> b >> c >> m;
 
-    sort(rall(arr));
-    int ans=0;
-    for (int i=n-1; i >= n-k; i--) {
-        // debug(arr[i]);
-        ans+=arr[i];
-    }
+    ll z1,z2,z3,z4;
+    z1=m/kpk(kpk(a,c),b);
+    z2=m/kpk(a,b);
+    z3=m/kpk(b,c);
+    z4=m/kpk(a,c);
+    // debug(kpk(kpk(a,c),b))
+    // debug(z1);
+    // debug(z2);
+    // debug(z3);
+    // debug(z4);
 
-    cout << ans << endl;
+    ll andi=0,bandung=0,clara=0;
+    andi = ((m/a)*6)-(z4*3)-(z2*3)+(z1*2);
+    bandung = ((m/b)*6)-(z2*3)-(z3*3)+(z1*2);
+    clara = ((m/c)*6)-(z3*3)-(z4*3)+(z1*2);
+    cout << andi << " " << bandung << " " << clara << endl;
 
 }
 
