@@ -1,0 +1,1 @@
+{"name":"Local: 2034B","url":"c:\\GAFFA\\competitive programming\\codeforces\\1000\\2034B.cpp","tests":[{"id":1789998508643,"input":"3\n5 1 1\n10101\n5 2 1\n10101\n6 3 2\n000000\n","output":"2\n0\n1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\GAFFA\\competitive programming\\codeforces\\1000\\2034B.cpp","group":"local","local":true}
