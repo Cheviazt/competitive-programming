@@ -1,1 +1,0 @@
-{"name":"Local: A","url":"c:\\GAFFA\\competitive programming\\codeforces\\contest\\2227\\A.cpp","tests":[{"id":1777560010133,"input":"6\n1 1\n1 2\n4 6\n5 9\n7 2\n10 10\n","output":"NO\nYES\nYES\nNO\nYES\nYES\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\GAFFA\\competitive programming\\codeforces\\contest\\2227\\A.cpp","group":"local","local":true}

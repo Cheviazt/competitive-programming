@@ -1,1 +1,0 @@
-{"name":"Local: combin2","url":"c:\\GAFFA\\competitive programming\\cses\\combin2.cpp","tests":[{"id":1782292978999,"input":"3 9\n5 3 2","output":"3"},{"id":1782292988206,"input":"3 8\n5 3 2","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\GAFFA\\competitive programming\\cses\\combin2.cpp","group":"local","local":true}

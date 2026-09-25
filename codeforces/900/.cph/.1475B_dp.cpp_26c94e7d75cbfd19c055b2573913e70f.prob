@@ -1,1 +1,0 @@
-{"name":"Local: 1475B_dp","url":"c:\\GAFFA\\competitive programming\\codeforces\\900\\1475B_dp.cpp","tests":[{"id":1773204268777,"input":"5\n1\n4041\n4042\n8081\n8079\n","output":"NO\nYES\nYES\nYES\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\GAFFA\\competitive programming\\codeforces\\900\\1475B_dp.cpp","group":"local","local":true}

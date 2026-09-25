@@ -1,1 +1,0 @@
-{"name":"Local: template","url":"c:\\GAFFA\\competitive programming\\template.cpp","tests":[{"id":1780118203948,"input":"3 12\n100 5\n120 8\n200 5\n","output":"10"},{"id":1780118212509,"input":"10 5","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\GAFFA\\competitive programming\\template.cpp","group":"local","local":true}

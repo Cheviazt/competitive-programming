@@ -1,1 +1,0 @@
-{"name":"Local: number_spiral","url":"c:\\GAFFA\\competitive programming\\cses\\number_spiral.cpp","tests":[{"id":1778653612520,"input":"3\n2 3\n1 1\n4 2","output":"8\n1\n15"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\GAFFA\\competitive programming\\cses\\number_spiral.cpp","group":"local","local":true}

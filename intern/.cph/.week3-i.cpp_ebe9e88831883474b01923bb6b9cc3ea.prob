@@ -1,1 +1,0 @@
-{"name":"Local: week3-i","url":"c:\\GAFFA\\competitive programming\\intern\\week3-i.cpp","tests":[{"id":1774666694070,"input":"5 5\n11 10 12 10 13\n11 9 10 11 13","output":"4"},{"id":1774667229267,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\GAFFA\\competitive programming\\intern\\week3-i.cpp","group":"local","local":true}

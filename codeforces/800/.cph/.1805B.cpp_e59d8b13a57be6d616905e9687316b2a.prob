@@ -1,1 +1,0 @@
-{"name":"Local: 1805B","url":"c:\\GAFFA\\competitive programming\\codeforces\\800\\1805B.cpp","tests":[{"id":1787928450151,"input":"4\n3\ncba\n4\nacac\n5\nabbcb\n4\naaba\n","output":"acb\naacc\nabbcb\naaab\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\GAFFA\\competitive programming\\codeforces\\800\\1805B.cpp","group":"local","local":true}

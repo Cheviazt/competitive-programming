@@ -1,1 +1,0 @@
-{"name":"Local: lcs_bottomup","url":"c:\\GAFFA\\competitive programming\\tlx\\dp\\lcs_bottomup.cpp","tests":[{"id":1773286956207,"input":"5\n2 1 3 4 5\n4 5 1 2 3","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\GAFFA\\competitive programming\\tlx\\dp\\lcs_bottomup.cpp","group":"local","local":true}

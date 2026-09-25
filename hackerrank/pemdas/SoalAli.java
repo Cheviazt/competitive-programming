@@ -1,4 +1,3 @@
-package hackerrank.pemdas;
 
 import java.util.Scanner;
 

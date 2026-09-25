@@ -1,1 +1,0 @@
-{"name":"Local: josephus","url":"c:\\GAFFA\\competitive programming\\warmup-bcc\\warmup\\josephus.cpp","tests":[{"id":1771602233528,"input":"7","output":"7"},{"id":1771602235797,"input":"9","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\GAFFA\\competitive programming\\warmup-bcc\\warmup\\josephus.cpp","group":"local","local":true}

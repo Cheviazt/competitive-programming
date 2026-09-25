@@ -1,3 +1,16 @@
-# Abaikan semua file .exe
+# Build output
 *.exe
+*.o
+*.out
+*.class
+
+# Competitive Programming Helper (VS Code extension) test cache
+.cph/
+
+# Local debug files
+Error.txt
+input.txt
+output.txt
+
+# Editor
 .vscode

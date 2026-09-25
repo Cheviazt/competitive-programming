@@ -1,1 +1,0 @@
-{"name":"Local: j","url":"c:\\GAFFA\\competitive programming\\gcw\\j.cpp","tests":[{"id":1780727168566,"input":"3 4\n0 10 20\n2 7\n12 9\n18 4\n30 100","output":"102"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\GAFFA\\competitive programming\\gcw\\j.cpp","group":"local","local":true}

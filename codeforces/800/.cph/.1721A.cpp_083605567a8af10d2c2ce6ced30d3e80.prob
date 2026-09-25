@@ -1,1 +1,0 @@
-{"name":"Local: 1721A","url":"c:\\GAFFA\\competitive programming\\codeforces\\800\\1721A.cpp","tests":[{"id":1788027598486,"input":"5\nrb\nbr\ncc\nwb\naa\naa\nab\ncd\nyy\nxx\n","output":"1\n2\n0\n3\n1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\GAFFA\\competitive programming\\codeforces\\800\\1721A.cpp","group":"local","local":true}

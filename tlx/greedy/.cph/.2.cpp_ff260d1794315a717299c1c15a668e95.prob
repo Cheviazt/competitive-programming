@@ -1,1 +1,0 @@
-{"name":"Local: 2","url":"c:\\GAFFA\\competitive programming\\tlx\\greedy\\2.cpp","tests":[{"id":1772037657247,"input":"3\n1 3 -5\n-2 4 1","output":"-25"},{"id":1772037665309,"input":"5\n1 2 3 4 5\n1 0 1 0 1","output":"6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\GAFFA\\competitive programming\\tlx\\greedy\\2.cpp","group":"local","local":true}

@@ -1,1 +1,0 @@
-{"name":"Local: 4","url":"c:\\GAFFA\\competitive programming\\oprec\\4.cpp","tests":[{"id":1771643984684,"input":"4\n5\n1 1 4 4 4\n2\n1 2\n15\n1 1 1 1 1 2 2 2 2 3 3 3 4 4 5\n5\n3 3 3 3 3","output":"4\n2\n9\n5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\GAFFA\\competitive programming\\oprec\\4.cpp","group":"local","local":true}

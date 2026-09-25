@@ -1,1 +1,0 @@
-{"name":"Local: gridpath1","url":"c:\\GAFFA\\competitive programming\\cses\\gridpath1.cpp","tests":[{"id":1782547646363,"input":"4\n....\n.*..\n...*\n*...","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\GAFFA\\competitive programming\\cses\\gridpath1.cpp","group":"local","local":true}

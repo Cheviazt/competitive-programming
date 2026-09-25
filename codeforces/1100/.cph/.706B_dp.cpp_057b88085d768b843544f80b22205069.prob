@@ -1,1 +1,0 @@
-{"name":"Local: 706B_dp","url":"c:\\GAFFA\\competitive programming\\codeforces\\1100\\706B_dp.cpp","tests":[{"id":1773028158263,"input":"5\n3 10 8 6 11\n4\n1\n10\n3\n11\n","output":"0\n4\n1\n5\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\GAFFA\\competitive programming\\codeforces\\1100\\706B_dp.cpp","group":"local","local":true}
