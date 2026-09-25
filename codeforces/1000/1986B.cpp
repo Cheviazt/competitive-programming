@@ -15,11 +15,7 @@ void solve(){
     for(ll i=1;i<=n;i++){
         for(ll j=1;j<=m;j++){
             int target=arr[i][j];
-
-            // if(i==1){
-
-            // }
-
+            
             if(target>arr[i+1][j]&&target>arr[i-1][j]&&target>arr[i][j+1]&&target>arr[i][j-1]){
                 arr[i][j]=max(max(arr[i+1][j], arr[i-1][j]),max(arr[i][j+1],arr[i][j-1]));
             }

@@ -57,11 +57,6 @@ void solve(){
         else dua++;
     }
 
-    int ans=min(satu,dua);
-    ans += abs(ans-satu)+abs(ans-dua);
-
-    cout<<ans<<endl;
-
 
 
 }
